@@ -4,7 +4,7 @@ public class RopeCutting_problem {
     if (len == 0)
       return 0;
     if (len < 0)
-      return -74848;
+      return -1;
     int x = max_pieces(len - a, a, b, c) + 1;
     int y = max_pieces(len - b, a, b, c) + 1;
     int z = max_pieces(len - c, a, b, c) + 1;
